@@ -1,0 +1,37 @@
+# Build artifacts
+/bin/
+/dist/
+/build/
+*.test
+*.out
+
+# Go
+go.work
+go.work.sum
+vendor/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Local working files
+.envrc.local
+.env
+.env.local
+TODO.local.md
+notes.local.md
+
+# Coverage
+coverage.txt
+coverage.html
+*.coverprofile
+
+# Credentials — never in git
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+secrets/
